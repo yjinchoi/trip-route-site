@@ -29,7 +29,7 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 ## 3. 광고와 추적
 
-- 광고 제거 이용권이 없는 경우 파일 공유 전에 Google AdMob 전면 광고가 표시됩니다(설치 후 3개월은 표시되지 않음).
+- 광고 제거 이용권이 없는 경우 지도 파일을 공유할 때 Google AdMob 광고가 표시됩니다(설치 후 3개월은 표시되지 않음).
 - 앱은 맞춤형 광고를 위해 App Tracking Transparency로 추적 허용 여부를 묻습니다. 허용하지 않아도 모든 기능을 사용할 수 있으며, 이때는 비개인화 광고가 표시됩니다.
 - Google의 정보 처리 방식: https://policies.google.com/technologies/partner-sites
 
@@ -71,7 +71,7 @@ We run no servers and never receive your location or trips. iPhone–Watch sync 
 
 ## Ads and tracking
 
-Without an ad-removal purchase, an AdMob interstitial is shown before sharing (not during the first 3 months).
+Without an ad-removal purchase, an AdMob ad is shown when you share a map file (not during the first 3 months).
 The app asks for tracking permission via App Tracking Transparency; if you decline, all features still work and ads are not personalised.
 See https://policies.google.com/technologies/partner-sites.
 
