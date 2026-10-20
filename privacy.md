@@ -56,7 +56,7 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 ---
 
-# Yeohaenggyeongno (여행경로) Privacy Policy
+# TripRoute (여행 경로) Privacy Policy
 
 Effective: October 16, 2026
 
