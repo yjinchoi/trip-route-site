@@ -15,8 +15,7 @@ permalink: /privacy/
 |---|---|---|
 | 위치 정보(정확한 위치) | 여행 동선 기록(고른 기준(100m · 300m · 1km · 행정구역)만큼 이동할 때 장소 기록, 행정구역 기준이면 지역 이름 확인을 위해 Apple 지도 서비스에 위치를 보냄) | 이용자 기기(iPhone·iPad·Apple Watch), iCloud 동기화를 켜면 이용자 본인의 iCloud |
 | 여행 이름·장소·메모 | 여행 보기·편집·공유 | 이용자 기기, iCloud 동기화를 켜면 이용자 본인의 iCloud |
-| 구매 내역 | 광고 제거 이용권 확인 | Apple(App Store)이 처리, 앱은 기기에서 확인만 함 |
-| 광고 식별자(IDFA) 등 광고 관련 정보 | 광고 표시(공유 시) | Google AdMob이 수집·처리 |
+| 기부 결제 | 선택 기부(개발 응원하기) 처리 | Apple(App Store)이 처리, 앱은 결제 결과를 저장하지 않음 |
 
 앱 개발자는 별도의 서버를 운영하지 않으며, 위치 정보와 여행 기록을 개발자에게 전송하거나 수집하지 않습니다.
 iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 통신(WatchConnectivity)으로만 이루어집니다.
@@ -31,13 +30,11 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 ## 3. 광고와 추적
 
-- 광고 제거 이용권이 없는 경우 지도 파일을 공유할 때 Google AdMob 광고가 표시됩니다(설치 후 3개월은 표시되지 않음).
-- 앱은 맞춤형 광고를 위해 App Tracking Transparency로 추적 허용 여부를 묻습니다. 허용하지 않아도 모든 기능을 사용할 수 있으며, 이때는 비개인화 광고가 표시됩니다.
-- Google의 정보 처리 방식: https://policies.google.com/technologies/partner-sites
+앱에는 광고가 없고, 이용자를 추적하지 않으며, 광고 식별자(IDFA)를 사용하지 않습니다. 모든 기능은 무료이며 기부는 선택입니다.
 
 ## 4. 제3자 제공
 
-앱은 위 3항의 광고 SDK(Google AdMob)를 제외하고 이용자 정보를 제3자에게 제공하지 않습니다.
+앱은 이용자 정보를 제3자에게 제공하지 않습니다.
 이용자가 직접 공유한 KML·KMZ·GPX 파일은 이용자가 선택한 앱·대상에게 전달됩니다.
 
 ## 5. 보관과 삭제
@@ -66,8 +63,7 @@ Effective: October 28, 2026
 
 - **Precise location** — used only between "Start recording" and "Stop" to record a place each time you move the distance you chose (100 m, 300 m or 1 km) or enter another district. With the district rule, locations are sent to Apple's map service to look up the district name. Stored on your devices and, with iCloud Sync on, in your own iCloud.
 - **Trips, places and notes** — stored on your devices and, with iCloud Sync on, in your own iCloud.
-- **Purchases** — processed by Apple; the app only checks your entitlement on the device.
-- **Advertising identifier and ad data** — collected and processed by Google AdMob to show ads when you share a file.
+- **Donations** — optional, processed by Apple; the app keeps no record of them.
 
 We run no servers and never receive your location or trips. iPhone–Watch sync uses Apple's WatchConnectivity only.
 With iCloud Sync on (the default; turn it off in Settings), trips are stored in your Apple ID's private iCloud database (CloudKit) to sync between your devices. Apple holds this data; the developer cannot access it.
@@ -75,13 +71,11 @@ If you link a trip to a plan from the developer's other travel apps (FlexTrip, T
 
 ## Ads and tracking
 
-Without an ad-removal purchase, an AdMob ad is shown when you share a map file (not during the first 3 months).
-The app asks for tracking permission via App Tracking Transparency; if you decline, all features still work and ads are not personalised.
-See https://policies.google.com/technologies/partner-sites.
+The app has no ads, does not track you and does not use the advertising identifier (IDFA). Every feature is free; donations are optional.
 
 ## Sharing, retention, children
 
-We share nothing with third parties other than the ad SDK above. Files you share go only where you send them.
+We share nothing with third parties. Files you share go only where you send them.
 Deleting a trip removes it from your devices and, while syncing, from iCloud. Deleting only the app leaves the iCloud copy, which you can remove in Settings > Apple ID > iCloud > Manage Storage. The app is not directed at children.
 
 ## Contact
