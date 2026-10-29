@@ -24,7 +24,7 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 ## 2. 위치 정보
 
-- 이용자가 "경로 기록 시작"을 누른 때부터 "기록 종료"를 누를 때까지만 위치를 사용합니다.
+- 이용자가 "경로 기록 시작"을 누른 때부터 "기록 종료"를 누를 때까지만 위치를 사용하며, "일시 중지"한 동안에는 사용하지 않습니다.
 - 앱을 닫거나 화면이 꺼져도 기록이 이어지도록 "항상 허용" 권한을 요청할 수 있습니다.
 - 위치 권한은 기기의 설정 > 개인정보 보호 및 보안 > 위치 서비스에서 언제든 변경할 수 있습니다.
 
@@ -61,7 +61,7 @@ Effective: October 28, 2026
 
 ## Information we handle
 
-- **Precise location** — used only between "Start recording" and "Stop" to record a place each time you move the distance you chose (100 m, 300 m or 1 km) or enter another district. With the district rule, locations are sent to Apple's map service to look up the district name. Stored on your devices and, with iCloud Sync on, in your own iCloud.
+- **Precise location** — used only between "Start recording" and "Stop", and not while recording is paused, to record a place each time you move the distance you chose (100 m, 300 m or 1 km) or enter another district. With the district rule, locations are sent to Apple's map service to look up the district name. Stored on your devices and, with iCloud Sync on, in your own iCloud.
 - **Trips, places and notes** — stored on your devices and, with iCloud Sync on, in your own iCloud.
 - **Donations** — optional, processed by Apple; the app keeps no record of them.
 
