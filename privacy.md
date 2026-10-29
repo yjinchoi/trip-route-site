@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # 여행경로 개인정보 처리방침
 
-시행일: 2026년 10월 28일
+시행일: 2026년 10월 29일
 
 여행경로(이하 "앱")는 이용자의 개인정보를 소중히 다루며, 이 방침은 앱이 어떤 정보를 어떻게 처리하는지 설명합니다.
 
@@ -57,7 +57,7 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 # TripRoute (여행 경로) Privacy Policy
 
-Effective: October 28, 2026
+Effective: October 29, 2026
 
 ## Information we handle
 
