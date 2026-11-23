@@ -2,9 +2,10 @@
 title: 여행경로 개인정보 처리방침
 permalink: /privacy/
 ---
+
 # 여행경로 개인정보 처리방침
 
-시행일: 2026년 11월 18일
+시행일: 2026년 10월 29일
 
 여행경로(이하 "앱")는 이용자의 개인정보를 소중히 다루며, 이 방침은 앱이 어떤 정보를 어떻게 처리하는지 설명합니다.
 
@@ -20,8 +21,6 @@ permalink: /privacy/
 iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 통신(WatchConnectivity)으로만 이루어집니다.
 설정에서 iCloud 동기화를 켜 두면(기본값: 켬) 여행 기록이 이용자 본인 Apple ID의 iCloud 개인 데이터베이스(CloudKit)에 저장되어 같은 Apple ID의 기기 사이에서 동기화됩니다. 이 데이터는 Apple이 보관하며 개발자는 열람할 수 없습니다. 설정에서 언제든 끌 수 있습니다.
 기록을 시작하기 전에 같은 개발자의 여행 앱(여행 계획 · 여행 사진 정리)의 여행 계획에 연결하면, 같은 개발자의 여행 앱끼리 이용자 기기(App Group)와 이용자 본인의 iCloud 개인 데이터베이스 안에서만 여행 계획과 방문 기록(방문한 계획 장소 · 도착 · 떠난 시각)을 주고받습니다. 개발자나 다른 사람에게 전송되지 않으며, 여행을 지우면 공유한 방문 기록도 지워짐으로 표시됩니다.
-
-여행 계획 앱에서 기록을 시작 · 종료할 수 있도록, 여행 경로는 지금 기록 중인지(기록 중 · 일시 중지 · 기록 없음), 기록 중인 여행 이름 · 연결한 여행 계획과 일차 · 시작 시각 · 장소 수를 이용자 기기 안(App Group)에만 남깁니다. 위치 좌표는 들어 있지 않고, iCloud나 개발자에게 전송되지 않습니다.
 
 ## 2. 위치 정보
 
@@ -58,7 +57,7 @@ iPhone과 Apple Watch 사이의 여행 기록 동기화는 Apple의 기기 간 �
 
 # TripRoute (여행 경로) Privacy Policy
 
-Effective: November 18, 2026
+Effective: October 29, 2026
 
 ## Information we handle
 
@@ -69,8 +68,6 @@ Effective: November 18, 2026
 We run no servers and never receive your location or trips. iPhone–Watch sync uses Apple's WatchConnectivity only.
 With iCloud Sync on (the default; turn it off in Settings), trips are stored in your Apple ID's private iCloud database (CloudKit) to sync between your devices. Apple holds this data; the developer cannot access it.
 If you link a trip to a plan from the developer's other travel apps (FlexTrip, TripPhoto) before recording, these travel apps exchange trip plans and visit records (planned places visited, arrival and departure times) only on your device (App Group) and in your own private iCloud database. Nothing is sent to the developer or anyone else; deleting the trip marks the shared visit record as deleted.
-
-So that FlexTrip can start and stop recordings, TripRoute keeps whether it is recording (recording, paused or idle) and the current recording's name, linked plan and day, start time and number of places only on your device (App Group). It contains no coordinates and is not sent to iCloud or the developer.
 
 ## Ads and tracking
 
